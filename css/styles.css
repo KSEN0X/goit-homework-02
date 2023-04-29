@@ -1,8 +1,16 @@
 :root {
-
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif 
-
+  /**
+    |============================
+    | FONTS
+    |============================
+  */
+--primary-font: "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif 
+  /**
+    |============================
+    | COLOR
+    |============================
+  */
   --background-body: #ffffff;
   --logo-iris: #4d5ae5;
   --header-span-logo: #2e2f42;
