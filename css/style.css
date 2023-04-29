@@ -171,8 +171,8 @@ color: var(--main-txt-cl);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--hero-button);
-  color: var(--hero-text);
+  background-color: #4d5ae5;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -247,7 +247,7 @@ color: var(--main-txt-cl);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--sub-title-color);
+  color: #2e2f42;
 }
 
 .team-text {
@@ -307,8 +307,8 @@ color: var(--main-txt-cl);
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  background-color: var(--portfolio-background-button);
-  color: var(--portfolio-text-button);
+  background-color: #f4f4fd;
+  color: #4d5ae5;
   cursor: pointer;
 }
 
