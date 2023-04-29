@@ -1,8 +1,16 @@
 :root {
-
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif 
-  
+  /**
+    |============================
+    | FONTS
+    |============================
+  */
+--primary-font: "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif 
+  /**
+    |============================
+    | COLOR
+    |============================
+  */
   --background-body: #ffffff;
   --logo-iris: #4d5ae5;
   --header-span-logo: #2e2f42;
@@ -14,8 +22,8 @@
   --hero-text: #ffffff;
   --hero-button: #4d5ae5;
   --hover-button: #404bbf;
-
-
+  
+ 
   --team-background-color: #f4f4fd;
   --team-item-cards: #ffffff;
 
@@ -29,7 +37,7 @@
   --portfolio-hover-text-button: #ffffff;
 
 
-
+  
   --color-green: #31d0aa;
   --color-light-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
@@ -44,12 +52,12 @@
 */
 
 body {
-  font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02 em;
-  background-color: #ffffff;
-  color: var(--main-txt-cl);
+font-family: var(--primary-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02 em;
+ background-color: #ffffff;
+color: var(--main-txt-cl);
 
 }
 
@@ -66,7 +74,6 @@ body {
   color: inherit;
   text-decoration: none;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -74,7 +81,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
+  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -115,7 +122,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
 }
-
 /**
   |============================
   | HEADER ADDRESS
@@ -164,7 +170,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+   align-items: center;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -183,22 +189,22 @@ body {
   |============================
 */
 .about-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--secondary-txt-cl);
-}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+  }
 
-.about-text {
+  .about-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-}
+  }
 
 
-/**
+  /**
     |============================
     | WORK
     |============================
@@ -307,7 +313,7 @@ body {
   cursor: pointer;
 }
 
-.modal-button:hover,
+.modal-button:hover,   
 .modal-button:focus {
   background-color: #404bbf;
   color: #ffffff;
