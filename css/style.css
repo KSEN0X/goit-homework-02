@@ -56,7 +56,7 @@ font-family: var(--primary-font);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02 em;
-background: var(--background-body);
+ background-color: #ffffff;
 color: var(--main-txt-cl);
 
 }
@@ -178,8 +178,8 @@ color: var(--main-txt-cl);
 
 .hero .button:hover,
 .hero .button:focus {
-  background-color: var(--hover-button);
-  color: var(--hero-text);
+  background-color: #404bbf;
+  color: #ffffff;
 }
 
 /**
@@ -239,7 +239,7 @@ color: var(--main-txt-cl);
   text-transform: capitalize;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--secondary-txt-cl);
+  color: #2E2F42;
 }
 
 .team-subtitle {
@@ -314,8 +314,8 @@ color: var(--main-txt-cl);
 
 .modal-button:hover,   
 .modal-button:focus {
-  background-color: var(--portfolio-hover-button);
-  color: var(--portfolio-text-button);
+  background-color: #404bbf;
+  color: #ffffff;
 }
 
 .cart-title {
