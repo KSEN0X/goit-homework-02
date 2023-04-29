@@ -177,8 +177,8 @@ color: var(--main-txt-cl);
   cursor: pointer;
 }
 
-.hero .button:hover,
-.hero .button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
